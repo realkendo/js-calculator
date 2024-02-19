@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background: #111;
+    max-height: 80%;
+     
+}
+
+marquee{
+    color: orangered;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-style: italic;
+    font-weight: bold ;
+}
+
+form input{
+    height: 100px;
+    width: 100%; 
+    padding: 1rem;
+    margin-top: 10px;
+    border: none;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    outline-width: 3rem;
+    outline-color: orangered;
+    text-align: right;
+    color: black;
+    pointer-events: none;
+}
+
+span{
+    color: orangered;
+    font-style: italic;
+}
+#log{
+    color: orangered;
+    text-decoration: line-through;
+}
+
+
+#content{
+    min-height: 100vh;
+    background:#111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#title{
+    background: orangered;
+    text-shadow:10px 10px 30px #fff;
+    text-align: center;
+    border: 3px dotted black;
+    color: black;
+    border-radius: 100px;
+    font-family: cursive;
+}
+
+.calculator{
+    width: 300px;
+    height: 500px;
+    box-shadow: 4px 4px 30px orangered;
+    border-radius: 10px;
+    border: 10px dashed black;
+    background: black;
+    overflow: hidden;
+}
+.buttons{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+button{
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border:1px solid orangered;
+    width: 60px;
+    height: 55px;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-yellow{
+    background-color: #002e4d;
+}
+
+.btn-grey {
+    background-color: grey;
+}
+
+.btn-equal{
+    background-color: darkgreen;
+}
+
+.btn-clear {
+    background-color: darkred;
+}
+
+button:hover{
+    font-size: 28px;
+    text-shadow: 1px orangered;
+    box-shadow: 0 0 10px orangered;
+    size: 30px;
+}
